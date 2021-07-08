@@ -81,3 +81,7 @@ class AdminClass():
         for row in cursor:
             tree.insert('', 'end', values = (row[0], row[1], row[2], row[3], row[4], row[5]))
             i = i + 1
+
+
+if __name__ == "__main__":
+    adminwindow()
